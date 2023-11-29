@@ -7,7 +7,7 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    domains: ['github.com'],
+    remotePatterns: ['github.com'],
   },
 }
 
